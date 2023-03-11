@@ -1,0 +1,31 @@
+html, body, h1{
+    margin: 0;
+    padding: 0;
+}
+.mainbody{
+    width: 100vw;
+    height: 100vh;
+    background: url("img3.jpg");
+    background-size: cover;
+    opacity: 0.1;
+    transition: all 4s;
+}
+.container{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    background-color: black;
+    opacity: 0.8;
+}
+p{
+    text-align: center;
+    color: white;
+}
+a{
+    color: white;
+    font-style: italic;
+}
